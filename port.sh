@@ -16,7 +16,7 @@ else
 fi
 #3.ftp
 ftp='netstat -an | grep LISTEN | grep :21'
-if [ "$ftp" != "" ]; then
+if [ "%ftp" != "" ]; then
 	echo "FTP is running"
 else
 	echo "FTP is NOT running"
